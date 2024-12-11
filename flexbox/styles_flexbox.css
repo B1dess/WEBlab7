@@ -1,0 +1,88 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-column{
+    flex: 10 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row{
+    flex: 10 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    background-color: white;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    border: black solid 1px;
+    display: flex;
+    word-break: break-word;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+.div1{
+    flex-direction: column;
+    padding: 5px;
+    flex: 2.5 0 0;
+    font-size: 26px;
+    background-color: bisque;
+}
+.div2{
+    flex: 2.5 0 0;
+    padding-right: 20px;
+    justify-content: right;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+.div3{
+    font-size: 45px;
+    justify-content: center;
+    flex: 1.25 0 0;
+    background-color: darkseagreen;
+}
+
+.espada-img{
+    margin:auto;
+    width: 15vw;
+    height: auto;
+}
+
+.div4{
+    flex-direction: column;
+    padding: 5px;
+    flex: 4 0 0;
+    font-size: 20px;
+    background-color: darkseagreen;
+}
+
+.espada{
+    aspect-ratio: 2/1;
+    height: 100%;
+    width: 100%;
+}
+
+.div5{
+    flex: 8 0 0;
+}
+.div6{
+    flex: 2 0 0;
+    padding-left: 20px;
+    justify-content: left;
+    align-items: center;
+    background-color: lightsteelblue;
+}

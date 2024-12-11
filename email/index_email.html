@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: top;
+            border: 2px solid black;
+        }
+
+        h1 {
+            background-color: white;
+            width: fit-content;
+        }
+
+        .table-body {
+            height: 100vh;
+        }
+
+        .div1 {
+            width: 21%;
+            padding: 5px;
+            font-size: 26px;
+            background-color: bisque;
+        }
+
+        .div2 {
+            text-align: right;
+            background-color: lightsteelblue;
+            height: 17vh;
+        }
+
+        .header-h1{
+            float: right;
+            margin: 6vh 2% 6vh 0;
+        }
+
+        .div3 {
+            font-size: 45px;
+            text-align: center;
+            background-color: darkseagreen;
+        }
+
+        .div4 {
+            padding: 5px;
+            font-size: 20px;
+            background-color: darkseagreen;
+        }
+
+        .div5 {
+            width: 55%;
+        }
+
+        .div6 {
+            height: 17vh;
+            text-align: left;
+            background-color: lightsteelblue;
+        }
+
+        .footer-h1{
+            margin: 6vh 0 6vh 2%;
+        }
+
+        .espada-img {
+            display: block;
+            margin: 4vh 0 0 20%;
+            width: 60%;
+            height: auto;
+        }
+
+        .espada {
+            aspect-ratio: 2/1;
+            width: 100%;
+            height: 100%;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+    </style>
+</head>
+<body>
+<table class="table-body">
+    <tr>
+        <td class="div1" rowspan="3">
+            <p>Lorem ipsum</p>
+            <ol>
+                <li>dolor sit </li>
+                <li>amet, consectetur</li>
+                <li>adipisicing elit</li>
+                <li>amet, consectetur</li>
+                <li>dolor sit</li>
+            </ol>
+            <br>
+            <p>Сторінки</p>
+            <ul>
+                <li><a href="../index.html">Головна сторінка</a></li>
+                <li><a href="../pages/page1.html">Сторінка 1</a></li>
+                <li><a href="../pages/page2.html">Сторінка 2</a></li>
+                <li><a href="../pages/page3.html">Сторінка 3</a></li>
+                <li><a href="../pages/page4.html">Сторінка 4</a></li>
+                <li><a href="../flexbox/index_flexbox.html">Flexbox CSS</a></li>
+                <li><a href="../grid/index_grid.html">Grid CSS</a></li>
+                <li><a href="../plain/index_plain.html">Plain</a></li>
+                <li><a href="index_email.html">E-mail <<<</a></li>
+            </ul>
+        </td>
+        <td colspan="2" class="div2">
+            <h1 class="header-h1">Сім раз відмір,</h1>
+        </td>
+    </tr>
+    <tr>
+        <td class="div3">ГОЛОВНА СТОРІНКА</td>
+        <td class="div4" rowspan="2">
+            "Each of the Espada holds dominion over a different form of death. The ten different paths that can lead a human to death. This is reflected in their individual abilities, their ideologies, and forms the basis of their existence."
+            <img class="espada-img" src="https://i.imgur.com/jUO8asV.png" alt="espada.png">
+        </td>
+    </tr>
+    <tr>
+        <td class="div5">
+            <img class="espada" usemap="#espada" src="https://i.imgur.com/DCvtPjs.png" alt="map.png">
+            <map name="espada">
+                <area shape="rect" coords="0,0,430,215" alt="main" href="../index.html">
+                <area shape="rect" coords="430,0,860,215" alt="page1" href="../pages/page1.html">
+                <area shape="rect" coords="0,215,287,430" alt="page2" href="../pages/page2.html">
+                <area shape="rect" coords="287,215,574,430" alt="page3" href="../pages/page3.html">
+                <area shape="rect" coords="574,215,861,430" alt="page4" href="../pages/page4.html">
+            </map>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" class="div6">
+            <h1 class="footer-h1">один раз відріж...</h1>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

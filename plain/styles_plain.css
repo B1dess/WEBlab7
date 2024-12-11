@@ -1,0 +1,96 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-body{
+    height: 100vh;
+    font-size: 0;
+}
+
+h1{
+    background-color: white;
+    width: fit-content;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    vertical-align: top;
+    border: black solid 1px;
+    word-break: break-word;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+.div1{
+    float: left;
+    padding: 5px;
+    font-size: 26px;
+    background-color: bisque;
+    width: 20.5%;
+    height: 83vh;
+    overflow: auto;
+}
+
+.div2{
+    float:left;
+    font-size: 16px;
+    background-color: lightsteelblue;
+    width: 79.5%;
+    height: 17vh;
+}
+
+.header-h1{
+    float: right;
+    margin: 6vh 2% 6vh 0;
+}
+
+.div3{
+    font-size: 45px;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.div5{
+    height: 58.8vh;
+}
+.espada{
+    aspect-ratio: 2/1;
+    height: 100%;
+    width: 100%;
+}
+
+.div3_5{
+    display: inline-block;
+    vertical-align: top;
+    width: 56.5%
+}
+
+.div4{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    background-color: darkseagreen;
+    width: 23%;
+    height: 66vh;
+    overflow: auto;
+}
+.espada-img{
+    margin: 3vh 0 0 16%;
+    width: 15vw;
+    height: auto;
+}
+
+.div6{
+    float: left;
+    background-color: lightsteelblue;
+    font-size: 16px;
+    height: 17vh;
+    width: 100vw;
+}
+
+.footer-h1{
+    margin: 6vh 0 6vh 2%;
+}

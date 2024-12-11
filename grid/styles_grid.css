@@ -1,0 +1,88 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "div1 div2 div2"
+    "div1 div3 div4"
+    "div1 div5 div4"
+    "div6 div6 div6";
+    grid-template-columns: 7fr 20fr 8fr;
+    grid-template-rows: 4fr 2fr 15fr 4fr;
+}
+
+h1{
+    background-color: white;
+    width: fit-content;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    border: black solid 1px;
+    word-break: break-word;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+.div1{
+    grid-area: div1;
+    padding: 5px;
+    font-size: 26px;
+    background-color: bisque;
+    overflow: auto;
+}
+
+.div2{
+    display: grid;
+    grid-area: div2;
+    background-color: lightsteelblue;
+    justify-content: right;
+    align-content: center;
+    padding-right: 20px;
+}
+
+.div3{
+    grid-area: div3;
+    font-size: 45px;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.espada-img{
+    margin-top: auto;
+    width: 15vw;
+    height: auto;
+}
+
+.div4{
+    display: grid;
+    grid-area: div4;
+    padding: 5px;
+    font-size: 20px;
+    background-color: darkseagreen;
+    overflow: auto;
+}
+
+.espada{
+    aspect-ratio: 2/1;
+    height:100%;
+    width:100%;
+}
+
+.div5{
+    grid-area: div5;
+}
+
+.div6{
+    display: grid;
+    grid-area: div6;
+    padding-left: 20px;
+    background-color: lightsteelblue;
+    justify-content: left;
+    align-content: center;
+}
